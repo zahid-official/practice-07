@@ -1,0 +1,103 @@
+/* common  styles */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* header-area */
+.header-area{
+    height: 90vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.315) , rgba(0, 0, 0, 0.342)) , url('images/bg.jpg');
+}
+.header-top{
+    background-color: rgba(128, 128, 128, 0.247);
+}
+.header-menu > ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-menu ul li{
+    position: relative;
+}
+.header-menu ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    display: block;
+}
+.header-menu ul .different a{
+    padding: 23px;
+}
+.header-menu ul li a:hover{
+    color: #58ffc5;
+}
+.header-menu ul li .dropdown{
+    display: none;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    text-wrap: nowrap;
+    background-color: rgba(128, 128, 128, 0.445);
+    position: absolute;
+    top: 100%;
+    left: -45%;
+}
+.header-menu ul li .dropdown a{
+    padding: 10px 0;
+}
+.header-menu > ul > li:hover .dropdown{
+    display: block;
+}
+
+/* header-bottom */
+.header-bottom{
+    color: white;
+    height: 70vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.header-content h5{
+    color: #91AEA4;
+    font-size: 18px;
+}
+.header-content h2{
+    margin: 20px 0;
+    font-size: 45px;
+    font-weight: 200;
+}
+.header-content p{
+    font-size: 20px;
+    margin: 25px 0 30px;
+}
+.header-content button{
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #91AEA4;
+}
+.header-content button:hover{
+    background-color: #7E9E93;
+}
