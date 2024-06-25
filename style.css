@@ -154,7 +154,7 @@ li{
 /* philosophy-area */
 .philosophy-area{
     height: 100vh;
-    padding: 100px 0 150px;
+    padding: 100px 0 250px;
 }
 .overlay{
     height: 5px;
@@ -216,4 +216,93 @@ li{
 }
 .philosophy-content-4{
     margin-left: 7%;
+}
+
+/* work-area */
+.work-area{
+    height: 100vh;
+    text-align: center;
+    padding: 30px 80px 200px;
+    background-color: #F1F3F8;
+}
+.work-content{
+    width: 28%;
+    float: left;
+    margin-left: 2%;
+}
+.work-style-1{
+    width: 100%;
+    height: 470px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.work-style-2{
+    width: 100%;
+    height: 270px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.work-content-1{
+    margin-left: 6%;
+}
+.work-content-2 .work-style-2{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.work-item-1{
+    background-image: url('images/bg4.jpg');
+}
+.work-item-2{
+    background-image: url('images/bg5.jpg');
+}
+.work-item-3{
+    background-image: url('images/bg6.jpg');
+}
+.work-item-4{
+    background-image: url('images/bg7.jpg');
+}
+.work-item-5{
+    background-image: url('images/bg8.jpg');
+}
+.work-item-6{
+    background-image: url('images/bg9.jpg');
+}
+
+/* company-area */
+.company-area{
+    height: 100vh;
+    padding: 50px 0 400px;
+    background-color: #F1F3F8;
+}
+.company-item{
+    width: 88%;
+    float: left;
+    height: 40vh;
+    margin-left: 5%;
+    margin-bottom: 16px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('images/bg10.jpg');
+}
+.company-item-1{
+    width: 42%;
+    background-image: url('images/bg11.jpg');
+}
+.company-item-2{
+    width: 42%;
+    margin-left: 3%;
+    background-image: url('images/bg12.jpg');
+}
+.company-item-3{
+    width: 92%;
+    height: 50vh;
+    margin-left: 12%;
+    background-image: url('images/bg13.jpg');
 }
